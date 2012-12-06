@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.fides</groupId>
+  <artifactId>grinderplugin</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>wpgrinder</name>
+  <url>http://maven.apache.org</url>
+
+	<build>
+		<plugins>
+			
+			<plugin>
+				<groupId>com.fides</groupId>
+				<artifactId>grinderplugin</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<configuration>
+					<path>/Users/robertc/g/juno_workspace/wpgrinder/src/test/config/grinder.properties</path>
+					<pathTest>/Users/robertc/g/juno_workspace/wpgrinder/src/test/jython/</pathTest> 
+                    <daemon_option>false</daemon_option>
+                    <daemon_period>5000</daemon_period>
+                    <properties>
+						 <task.urls>/Users/robertc/g/juno_workspace/wpgrinder/src/test/data/purls.list</task.urls>
+						 <grinder.script>grinder.py</grinder.script>
+						 <grinder.runs>5</grinder.runs>
+                         <grinder.useConsole>false</grinder.useConsole>
+                         <grinder.logDirectory>log</grinder.logDirectory>
+                    </properties>
+				</configuration>
+			</plugin>
+		
+		</plugins>
+	</build>
+	
+</project>
