@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Grinder3.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../grinder-3.4/lib/asm-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grinder-3.4/lib/grinder-agent.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grinder-3.4/lib/grinder.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grinder-3.4/lib/jsr173_1.0_api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grinder-3.4/lib/jython.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grinder-3.4/lib/picocontainer-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grinder-3.4/lib/xbean.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../grinder-3.4/lib/grinder-xmlbeans.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../grinder-3.4/lib/grinder-xmlbeans.jar!/src" />
+    </SOURCES>
+  </library>
+</component>
